@@ -1,6 +1,8 @@
+import { sideNavigation } from "./SideNavigation.css";
+
 export default function SideNavigation() {
   return (
-    <nav>
+    <nav class={sideNavigation({})}>
       <ul>
         <li>
           <a href="/dashboard">Dashboard</a>

@@ -11,8 +11,10 @@
     "types": ["solid-start/env", "@testing-library/jest-dom"],
     "baseUrl": "./",
     "paths": {
-      "~/*": ["./src/*", "./styled-system/*"],
-    },
+      "@src/*": ["./src/*"],
+      "@styled/*": ["./styled-system/*"],
+    }
   },
   "types": ["vitest"],
+  "include": ["**/*.ts", "**/*.tsx"],
 }
